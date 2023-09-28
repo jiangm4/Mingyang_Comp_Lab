@@ -1,0 +1,2 @@
+Total number of hydrogen bonds: 57
+Number of helical amino acids: 18
