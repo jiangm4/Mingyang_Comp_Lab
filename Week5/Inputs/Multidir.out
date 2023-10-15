@@ -1,0 +1,286 @@
+                      :-) GROMACS - gmx mdrun, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/mj3313/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi mdrun -s adp -multidir T300/ T363/ T440/ -deffnm adp_exchange3temps -replex 50
+
+
+Back Off! I just backed up adp_exchange3temps.log to ./#adp_exchange3temps.log.1#
+
+Back Off! I just backed up adp_exchange3temps.log to ./#adp_exchange3temps.log.1#
+
+Back Off! I just backed up adp_exchange3temps.log to ./#adp_exchange3temps.log.1#
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Compiled SIMD: None, but for this host/run AVX_512 might be better (see log).
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file adp.tpr, VERSION 2018.3 (single precision)
+Reading file adp.tpr, VERSION 2018.3 (single precision)
+
+This is simulation 2 out of 3 running as a composite GROMACS
+multi-simulation job. Setup for this simulation:
+
+Using 1 MPI process
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+Reading file adp.tpr, VERSION 2018.3 (single precision)
+
+This is simulation 1 out of 3 running as a composite GROMACS
+multi-simulation job. Setup for this simulation:
+
+Using 1 MPI process
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+This is simulation 0 out of 3 running as a composite GROMACS
+multi-simulation job. Setup for this simulation:
+
+Using 1 MPI process
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+starting mdrun 'Protein'
+2500000 steps,   5000.0 ps.
+starting mdrun 'Protein'
+2500000 steps,   5000.0 ps.
+starting mdrun 'Protein'
+2500000 steps,   5000.0 ps.
+
+Writing final coordinates.
+
+Writing final coordinates.
+
+Writing final coordinates.
+
+GROMACS reminds you: "Hangout In the Suburbs If You've Got the Guts" (Urban Dance Squad)
+
+                      :-) GROMACS - gmx energy, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx energy, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/mj3313/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi energy -f T300/adp_exchange3temps.edr -o T300_potential_energy.xvg
+
+Opened T300/adp_exchange3temps.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Angle            2  Proper-Dih.      3  Improper-Dih.    4  LJ-14         
+  5  Coulomb-14       6  LJ-(SR)          7  Coulomb-(SR)     8  Potential     
+  9  Kinetic-En.     10  Total-Energy    11  Conserved-En.   12  Temperature   
+ 13  Pressure        14  Constr.-rmsd    15  Vir-XX          16  Vir-XY        
+ 17  Vir-XZ          18  Vir-YX          19  Vir-YY          20  Vir-YZ        
+ 21  Vir-ZX          22  Vir-ZY          23  Vir-ZZ          24  Pres-XX       
+ 25  Pres-XY         26  Pres-XZ         27  Pres-YX         28  Pres-YY       
+ 29  Pres-YZ         30  Pres-ZX         31  Pres-ZY         32  Pres-ZZ       
+ 33  #Surf*SurfTen   34  T-System        35  Lamb-System   
+
+Reading energy frame      0 time    0.000         Reading energy frame      1 time   10.000         Reading energy frame      2 time   20.000         Reading energy frame      3 time   30.000         Reading energy frame      4 time   40.000         Reading energy frame      5 time   50.000         Reading energy frame      6 time   60.000         Reading energy frame      7 time   70.000         Reading energy frame      8 time   80.000         Reading energy frame      9 time   90.000         Reading energy frame     10 time  100.000         Reading energy frame     11 time  110.000         Reading energy frame     12 time  120.000         Reading energy frame     13 time  130.000         Reading energy frame     14 time  140.000         Reading energy frame     15 time  150.000         Reading energy frame     16 time  160.000         Reading energy frame     17 time  170.000         Reading energy frame     18 time  180.000         Reading energy frame     19 time  190.000         Reading energy frame     20 time  200.000         Reading energy frame     30 time  300.000         Reading energy frame     40 time  400.000         Reading energy frame     50 time  500.000         Reading energy frame     60 time  600.000         Reading energy frame     70 time  700.000         Reading energy frame     80 time  800.000         Reading energy frame     90 time  900.000         Reading energy frame    100 time 1000.000         Reading energy frame    110 time 1100.000         Reading energy frame    120 time 1200.000         Reading energy frame    130 time 1300.000         Reading energy frame    140 time 1400.000         Reading energy frame    150 time 1500.000         Reading energy frame    160 time 1600.000         Reading energy frame    170 time 1700.000         Reading energy frame    180 time 1800.000         Reading energy frame    190 time 1900.000         Reading energy frame    200 time 2000.000         Reading energy frame    300 time 3000.000         Reading energy frame    400 time 4000.000         Reading energy frame    500 time 5000.000         Last energy frame read 500 time 5000.000         
+
+GROMACS reminds you: "All Work and No Play Makes Jack a Dull Boy" (The Shining)
+
+
+Statistics over 2500001 steps [ 0.0000 through 5000.0000 ps ], 1 data sets
+All statistics are over 25001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Total Energy                9.41751      0.097    15.6772  -0.434255  (kJ/mol)
+                      :-) GROMACS - gmx energy, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx energy, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/mj3313/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi energy -f T363/adp_exchange3temps.edr -o T363_potential_energy.xvg
+
+Opened T363/adp_exchange3temps.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Angle            2  Proper-Dih.      3  Improper-Dih.    4  LJ-14         
+  5  Coulomb-14       6  LJ-(SR)          7  Coulomb-(SR)     8  Potential     
+  9  Kinetic-En.     10  Total-Energy    11  Conserved-En.   12  Temperature   
+ 13  Pressure        14  Constr.-rmsd    15  Vir-XX          16  Vir-XY        
+ 17  Vir-XZ          18  Vir-YX          19  Vir-YY          20  Vir-YZ        
+ 21  Vir-ZX          22  Vir-ZY          23  Vir-ZZ          24  Pres-XX       
+ 25  Pres-XY         26  Pres-XZ         27  Pres-YX         28  Pres-YY       
+ 29  Pres-YZ         30  Pres-ZX         31  Pres-ZY         32  Pres-ZZ       
+ 33  #Surf*SurfTen   34  T-System        35  Lamb-System   
+
+Reading energy frame      0 time    0.000         Reading energy frame      1 time   10.000         Reading energy frame      2 time   20.000         Reading energy frame      3 time   30.000         Reading energy frame      4 time   40.000         Reading energy frame      5 time   50.000         Reading energy frame      6 time   60.000         Reading energy frame      7 time   70.000         Reading energy frame      8 time   80.000         Reading energy frame      9 time   90.000         Reading energy frame     10 time  100.000         Reading energy frame     11 time  110.000         Reading energy frame     12 time  120.000         Reading energy frame     13 time  130.000         Reading energy frame     14 time  140.000         Reading energy frame     15 time  150.000         Reading energy frame     16 time  160.000         Reading energy frame     17 time  170.000         Reading energy frame     18 time  180.000         Reading energy frame     19 time  190.000         Reading energy frame     20 time  200.000         Reading energy frame     30 time  300.000         Reading energy frame     40 time  400.000         Reading energy frame     50 time  500.000         Reading energy frame     60 time  600.000         Reading energy frame     70 time  700.000         Reading energy frame     80 time  800.000         Reading energy frame     90 time  900.000         Reading energy frame    100 time 1000.000         Reading energy frame    110 time 1100.000         Reading energy frame    120 time 1200.000         Reading energy frame    130 time 1300.000         Reading energy frame    140 time 1400.000         Reading energy frame    150 time 1500.000         Reading energy frame    160 time 1600.000         Reading energy frame    170 time 1700.000         Reading energy frame    180 time 1800.000         Reading energy frame    190 time 1900.000         Reading energy frame    200 time 2000.000         Reading energy frame    300 time 3000.000         Reading energy frame    400 time 4000.000         Reading energy frame    500 time 5000.000         Last energy frame read 500 time 5000.000         
+
+GROMACS reminds you: "(That makes 100 errors; please try again.)" (TeX)
+
+
+Statistics over 2500001 steps [ 0.0000 through 5000.0000 ps ], 1 data sets
+All statistics are over 25001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Total Energy                30.2795       0.19    18.9088  -0.940894  (kJ/mol)
+                      :-) GROMACS - gmx energy, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx energy, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/mj3313/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi energy -f T440/adp_exchange3temps.edr -o T440_potential_energy.xvg
+
+Opened T440/adp_exchange3temps.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Angle            2  Proper-Dih.      3  Improper-Dih.    4  LJ-14         
+  5  Coulomb-14       6  LJ-(SR)          7  Coulomb-(SR)     8  Potential     
+  9  Kinetic-En.     10  Total-Energy    11  Conserved-En.   12  Temperature   
+ 13  Pressure        14  Constr.-rmsd    15  Vir-XX          16  Vir-XY        
+ 17  Vir-XZ          18  Vir-YX          19  Vir-YY          20  Vir-YZ        
+ 21  Vir-ZX          22  Vir-ZY          23  Vir-ZZ          24  Pres-XX       
+ 25  Pres-XY         26  Pres-XZ         27  Pres-YX         28  Pres-YY       
+ 29  Pres-YZ         30  Pres-ZX         31  Pres-ZY         32  Pres-ZZ       
+ 33  #Surf*SurfTen   34  T-System        35  Lamb-System   
+
+Reading energy frame      0 time    0.000         Reading energy frame      1 time   10.000         Reading energy frame      2 time   20.000         Reading energy frame      3 time   30.000         Reading energy frame      4 time   40.000         Reading energy frame      5 time   50.000         Reading energy frame      6 time   60.000         Reading energy frame      7 time   70.000         Reading energy frame      8 time   80.000         Reading energy frame      9 time   90.000         Reading energy frame     10 time  100.000         Reading energy frame     11 time  110.000         Reading energy frame     12 time  120.000         Reading energy frame     13 time  130.000         Reading energy frame     14 time  140.000         Reading energy frame     15 time  150.000         Reading energy frame     16 time  160.000         Reading energy frame     17 time  170.000         Reading energy frame     18 time  180.000         Reading energy frame     19 time  190.000         Reading energy frame     20 time  200.000         Reading energy frame     30 time  300.000         Reading energy frame     40 time  400.000         Reading energy frame     50 time  500.000         Reading energy frame     60 time  600.000         Reading energy frame     70 time  700.000         Reading energy frame     80 time  800.000         Reading energy frame     90 time  900.000         Reading energy frame    100 time 1000.000         Reading energy frame    110 time 1100.000         Reading energy frame    120 time 1200.000         Reading energy frame    130 time 1300.000         Reading energy frame    140 time 1400.000         Reading energy frame    150 time 1500.000         Reading energy frame    160 time 1600.000         Reading energy frame    170 time 1700.000         Reading energy frame    180 time 1800.000         Reading energy frame    190 time 1900.000         Reading energy frame    200 time 2000.000         Reading energy frame    300 time 3000.000         Reading energy frame    400 time 4000.000         Reading energy frame    500 time 5000.000         Last energy frame read 500 time 5000.000         
+
+GROMACS reminds you: "Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth." (Jules Verne)
+
+
+Statistics over 2500001 steps [ 0.0000 through 5000.0000 ps ], 1 data sets
+All statistics are over 25001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Total Energy                55.2442       0.23    22.8038   0.208448  (kJ/mol)
